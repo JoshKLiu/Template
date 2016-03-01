@@ -1,0 +1,13 @@
+extends layout
+
+block append content
+  .container-fluid
+    .child-container
+      .forum-title
+        .h1 Forum
+
+      .login-container
+        a(href='/auth/facebook').fb-connect-button
+          i.fa.fa-facebook-official
+          span.button-text Sign up with Facebook
+        a(href='#').login Login

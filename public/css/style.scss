@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Regular.otf') format('opentype');
+}
+
+.child-container {
+    display: block;
+    margin-left: -250px;
+    position: absolute;
+    width: 500px;
+    padding:0px;
+    top: 45%;
+    left:50%;
+    .forum-title {
+      text-align: center;
+      margin-bottom: 50px; 
+    }
+  }
+
+.h1 {
+  font-size: 64px;
+  top:40%;
+}
+
+
+.login-container {
+  
+  display: block;
+  text-align: center;
+
+  .fb-connect-button{
+      margin: 30px;
+        background-color: #3b5998;
+        border-color: #3b5998;
+        border-radius: 50px;
+        text-align: center;
+        padding: 10px 25px;
+        color: #fff;
+        text-decoration: none;
+
+
+      .button-text {
+        margin-left:10px;
+        font-size:20px;
+        font-family:Lato, sans-serif;
+      }
+  }
+
+
+  .login {
+    margin-top: 10px;
+    display: block;
+  }
+}
